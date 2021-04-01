@@ -15,7 +15,7 @@ Our inventory system has the following main rules:
 - All items have a `sell_in` value which denotes the number of days we have left to sell the item (akin to a countdown to a "sell by" date).
 - All items have a `quality` value which denotes how valuable the item is.
 - **At the end of each day the system lowers both `sell_in` and `quality` for every item**.  
-- 
+
 Some items have special rules that apply only to them. Here are some of them that have been provided by from our helpful Product Manager:
 - Once the sell by date has passed, `quality` degrades twice as fast.
 - The `quality` of an item is never negative.
