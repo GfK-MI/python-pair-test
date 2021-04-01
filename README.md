@@ -27,4 +27,4 @@ This new category of item we plan on selling also has its own special rule:
 - **Conjured** items degrade in `quality` twice as fast as normal items.  
 
 Due to shortsightedness we can't modify the `Item` class or any of its properties. As its shared with other internal systems and we need to maintain interoperability with them.
-Feel free to make any changes to the `GildedRose` and add any new code as long as everything still works correctly.
+Feel free to make any changes to the `GildedRose` class and add any new code as long as everything still works correctly.
